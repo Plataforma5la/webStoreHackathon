@@ -1,0 +1,49 @@
+body{
+  background-color: #ffffff;
+  background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
+
+
+}
+#header {
+  margin: 20px auto;
+}
+#nav {
+  margin: 20px auto;
+}
+#contenido {
+}
+#footer {
+  height: 110px;
+  margin-top: 0px;
+  padding: 50px 10px;
+}
+
+hr { margin: 5px auto;}
+
+img {
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+  display: block;
+  margin: 10px auto;
+}
+.bold {
+  font-weight: 600;
+  margin-right: 5px;
+  font-size: 1em;
+}
+li {
+  font-size: 1.2em;
+  list-style: none;
+}
+.caja {
+  background-color: #FFF;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  min-height: 430px;
+  border-radius: 20px;
+  border-color: #DADADA;
+  border-style: solid;
+  border-width: thin;
+  padding: 5px;
+  margin: 10px 10px;
+}
