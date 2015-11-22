@@ -1,7 +1,13 @@
 body{
   background-color: #ffffff;
   background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
-
+}
+#doge{
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: 10px auto;
 
 }
 #header {
@@ -37,13 +43,18 @@ li {
   list-style: none;
 }
 .caja {
+  position: relative;
   background-color: #FFF;
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  min-height: 430px;
+  min-height: 500px;
   border-radius: 20px;
   border-color: #DADADA;
   border-style: solid;
   border-width: thin;
   padding: 5px;
   margin: 10px 10px;
+}
+.caja .button{
+  position: absolute;
+  bottom: 0;
 }
